@@ -1,0 +1,4 @@
+boto3
+pillow
+moto[s3]
+pytest
