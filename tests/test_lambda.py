@@ -7,7 +7,7 @@ from moto import mock_aws
 from PIL import Image
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from imgupload.lambda_function import handler, THUMBNAIL_SIZE
+from lambda_function import handler, THUMBNAIL_SIZE
 
 
 @mock_aws

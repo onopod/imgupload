@@ -20,3 +20,9 @@ htmlcov/
 .vscode/
 .idea/
 *.iml
+# build artifacts (zip)
+*.zip
+
+# lambda package (generated)
+package/
+
